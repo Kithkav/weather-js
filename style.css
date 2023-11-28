@@ -1,0 +1,60 @@
+.body{
+    background: #222;
+}
+.card{
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    border-radius: 20px;
+    text-align: center;
+    width: 90%;
+    max-width: 470px;
+    margin: 100px auto 0;
+}
+.search{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    border-radius: 30px;
+    height: 50px;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: 20px;
+    flex: 1;
+    margin-right: 16px;
+}
+.search button{
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    margin-right: 10px;
+    
+}
+.search button img{
+    width: 16px;
+}
+.weather{
+    font-weight: bold;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+.cols{
+    text-align: left;
+    display: flex;
+
+}
+.cols img{
+    width: 40px;
+    padding: 0 20px;
+}
