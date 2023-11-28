@@ -42,7 +42,6 @@
     const searchButton = document.querySelector(".search button");
     const weatherIcon = document.querySelector(".weather-icon");
 
-
     async function checkWeather(city){
         const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
         var data = await response.json();
@@ -69,17 +68,12 @@
         else if(data.weather[0].main == "Mist"){
             weatherIcon.src = "images/mist.png";
         }
-    
     }
 
     searchButton.addEventListener("click", ()=>{
         checkWeather(searchBox.value);
     })
-
-    
-
-    
-
+       
    </script>
 </body>
 </html>
